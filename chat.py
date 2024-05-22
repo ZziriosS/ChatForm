@@ -13,7 +13,7 @@ MAX_MESSAGES_COUNT = 100
 async def main():
     global chat_msgs
     
-    put_markdown("## 🧊 Добро пожаловать в онлайн чат!\nИсходный код данного чата укладывается в 100 строк кода!")
+    put_markdown("## ChatFrom!\nGitHub -> https://github.com/ZziriosS/ChatForm/tree/master")
 
     msg_box = output()
     put_scrollable(msg_box, height=300, keep_bottom=True)
